@@ -32,7 +32,7 @@ class TestHTMLNode(unittest.TestCase):
                 LeafNode(None, "Normal text"),
             ],
         )
-        self.assertEqual(parent_node.to_html(),'<p><b>Bold text</b>Normal text<i>italic text</i>Normal text</p>')
+        self.assertEqual(node.to_html(),'<p><b>Bold text</b>Normal text<i>italic text</i>Normal text</p>')
 
 
 if __name__ == "__main__":
